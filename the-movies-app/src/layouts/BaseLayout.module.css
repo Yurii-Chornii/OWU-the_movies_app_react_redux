@@ -1,0 +1,25 @@
+.mainWrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    position: relative;
+}
+
+header, footer {
+    padding: 10px 20px;
+}
+
+header {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: lightgray;
+}
