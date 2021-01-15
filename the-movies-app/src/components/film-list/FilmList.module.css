@@ -1,0 +1,14 @@
+.listWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.itemWrapper{
+    flex-basis: 30%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 100%;
+}
